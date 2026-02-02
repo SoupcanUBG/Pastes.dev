@@ -4,7 +4,7 @@ class PastesDevImport extends PolyMod {
 init = (pml) => {
 
 
-//pml.registerClassMixin(hx.prototype, fromExportString, MixinType.INSERT, firstToken: fromExportString, secondTokenOrFunction: fromExportString | [FUNCTION], functionOptional: [FUNCTION]);
+pml.registerClassMixin(hx, fromExportString, MixinType.INSERT, firstToken: fromExportString, secondTokenOrFunction: fromExportString | [FUNCTION], functionOptional: [FUNCTION]);
 
 
 
@@ -14,12 +14,47 @@ init = (pml) => {
 
 
 }
-//class PastesDevExport extends PolyMod {
-//  init = (pml) => {
-//  pml.registerClassMixin();
+
+
+
+
+
+
+class PastesDevExport extends PolyMod {
+  init = (pml) => {
+  pml.registerClassMixin();
 
 }
 
 
-export let polyMod = new PastesDevImport();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  export let polyMod = new PastesDevImport();
 
