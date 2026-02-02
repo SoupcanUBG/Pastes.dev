@@ -1,7 +1,7 @@
-{
+  {
     "polymod": {
         "name": "Pastes.dev Integration",
-        "id": "pastesdevintegration",
+        "id": "pastesdev",
         "author": "NotRx",
         "targets": [
             "0.5.2"
@@ -9,6 +9,7 @@
         "main": "main.mod.js"
     },
     "dependencies": [
-        {}
+        {
+        }
     ]
 }
