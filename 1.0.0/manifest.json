@@ -1,10 +1,15 @@
-{
+  {
     "polymod": {
-        "name": "PolyProxy",
-        "id": "polyproxy",
-        "author": "Orangy",
-        "targets": ["0.5.2"],
+        "name": "Pastes.dev Integration",
+        "id": "pastesdev",
+        "author": "NotRx",
+        "targets": [
+            "0.5.2"
+        ],
         "main": "main.mod.js"
     },
-    "dependencies": []
+    "dependencies": [
+        {
+        }
+    ]
 }
